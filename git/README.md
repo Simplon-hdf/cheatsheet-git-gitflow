@@ -30,6 +30,13 @@
 | `git switch [branch name]` | Switch to the branch |
 
 ### Merges and Rebase
+#### What is the difference between `git merge` and `git rebase` ?
+
+`git merge` : merging looks for two commit pointers (usually the last commit of each branch) and will create a **merge commit** which will combine both ends of each branch into a new commit
+`git rebase` : rebasing 
+
+!(Merge vs Rebase)[https://dataschool360.files.wordpress.com/2019/11/e841d-1pzt4kmizdofsmokh-cjjfq.png]
+
 | Command | Description |
 | ------- | ----------- |
 | `git merge [branch name]` | Merge a branch into the active branch |
