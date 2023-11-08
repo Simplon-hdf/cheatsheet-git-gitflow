@@ -126,5 +126,18 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 
 - Git tags are fixed landmarks in code history, used to mark stable versions, important landmarks, and project-specific states. They allow you to reference and track software versions, which facilitates the management, navigation and consistent deployment of code.
 
+| Command | Description |
+| ------- | ----------- |
+| `git tag tag_name` | Create a lightweight tag |
+| `git tag -a tag_name -m "Tag message"` | Create an annotated tag with an associated message |
+| `git tag` | List all tags in the local repository |
+| `git show tag_name` | Display details of a specific tag |
+| `git push origin tag_name` | Push a tag to a remote repository |
+| `git push --tags` | Push all tags to a remote repository |
+| `git tag -d tag_name` | Delete a tag from the local repository |
+| `git push --delete origin tag_name` | Delete a tag from the remote repository |
+
+
+
 ## Cherrypicking
 
