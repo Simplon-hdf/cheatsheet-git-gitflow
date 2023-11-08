@@ -94,3 +94,26 @@ This command will merge the changes from the hotfix branch into both develop and
    
 <img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/160f9641eaba9831fe08543b2fdbd33a399134be/image/GitFlowHotfixFinish.png" alt="Schemagitflow" width="500"/> 
   
+## How to set up aliases  
+  
+```
+alias (alias)="(command)"
+```  
+This is the command to set up these aliases.  
+Here is how I set up my aliases.   
+  
+```
+alias gffs="git flow feature start"  
+alias gfff="git flow feature finish"  
+alias gfrs="git flow release start"  
+alias gfrf="git flow release finish"  
+alias gfhs="git flow hotfix start"  
+alias gfhf="git flow hotfix finish"  
+alias gpot="git push origin --tags"  
+
+```  
+  
+  You'll need to put them in the .zshrc or .bashrc file, like this.  
+    
+<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/160f9641eaba9831fe08543b2fdbd33a399134be/image/GitFlowHotfixFinish.png" alt="Schemagitflow" width="500"/>  
+  
