@@ -18,6 +18,19 @@
 
 ### Why you need to use git remote command
 
+- The git remote command is used to manage remote repositories associated with your local Git repository. It allows you to add, list, rename and delete remote repositories, as well as view information about these repositories. It is essential for establishing connections with other repositories, facilitating collaboration and code synchronization between your local repository and remote repositories.
+
+
+| Command | Description |
+| ------- | ----------- |
+| `git remote -v` | List Remote Repositories |
+| `git remote rename old_name new_name` | Rename a Remote Repository |
+| `git remote remove remote_name` | Remove a Remote Repository |
+
+
+
+
+
 
 
 ## Sharing projects
