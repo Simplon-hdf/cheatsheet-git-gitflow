@@ -36,7 +36,7 @@ git flow feature finish (name)
   
 The command git flow feature finish (name) attempts to finish a feature branch named (name) using the Git Flow workflow.  
    
-<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/gitflowfeatureFinish.png" alt="Schemagitflow" width="500"/> 
+<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/schema%20command%20gitflow/gitflowfeatureFinish.png" alt="Schemagitflow" width="500"/> 
   
 ---
   
@@ -46,7 +46,7 @@ git flow release start (1.0.0)
   
 When you run this command, Git Flow will create a new release branch based on the current state of the develop branch. You can then use this release branch to prepare for a new software release. Typically, you would use the release branch to fix any remaining bugs, update documentation, and perform other tasks necessary for the release. 
    
-<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/schema%20command%20gitflow/gitflowfeatureFinish.png" alt="Schemagitflow" width="500"/> 
+<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/schema%20command%20gitflow/GitFlowRealiseStart.png" alt="Schemagitflow" width="500"/> 
   
 ---
   
@@ -115,7 +115,7 @@ alias gpot="git push origin --tags"
   
   You'll need to put them in the .zshrc or .bashrc file, like this.  
     
-<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/aliasgitflow.png" alt="Schemagitflow" width="500"/>  
+<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/schema%20command%20gitflow/aliasgitflow.png" alt="Schemagitflow" width="500"/>  
   
 ## Create Workflow in Teams  
   
