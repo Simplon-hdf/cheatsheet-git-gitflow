@@ -1,3 +1,4 @@
+
 # Cheat Sheets Git Flow  
   
 ## Introduction to Git Flow  
@@ -26,3 +27,4 @@ The git flow feature start command is used to create a new feature branch in a G
 Features in Git Flow are used to develop new functionality or make significant changes to the codebase. Using feature branches helps keep the development work isolated from the main branches (develop and master), allowing teams to work on different features independently.  
    
 <img src="https://raw.githubusercontent.com/PayenThibaud/cheatsheet-git-gitflow/develop/image/gitflowfeaturestat.png" alt="Schemagitflow" width="500"/> 
+
