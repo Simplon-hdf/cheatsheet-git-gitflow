@@ -2,7 +2,10 @@
 
 ## Table of content
 - [Definitions](#definitions)
-- [Configurations](#configurations)
+- [Aliases](#aliases)
+    - [How to set up your aliases](#how-to-set-up-your-aliases)
+    - [A few useful aliases](#a-few-useful-aliases)
+- [Staging and comiting](#staging-and-commiting)
 - [Setting up remotes](#setting-up-remotes)
     - [Why you need to use git remote command](#why-you-need-to-use-git-remote-command)
     - [Working with Remote Repositories](#working-with-remote-repositories)
@@ -15,9 +18,8 @@
     - [Branch](#branch)
     - [Merges and Rebase](#merges-and-rebase)
 - [Stash](#stash)
-- [Review changes](#review-changes)
+- [Logs](#logs)
 - [Tags](#tags)
-    - [What are tags on git](#what-are-tags-on-git)
 - [Cherrypicking](#cherrypicking)
 - [Commit Convention](#commit-convention)
 
@@ -217,7 +219,6 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 
 
 ## Cherrypicking
-### What is cherry picking
 
 Cherry picking is the act of picking a commit from a branch and applying it to another. Cherry pick can be used in very specific situation such as :
 - big hotfixes
