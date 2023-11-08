@@ -5,7 +5,7 @@
 
 Git Flow is a branching strategy designed to streamline the development workflow and simplify collaboration among team members in Git-based projects. It was created by Vincent Driessen and has gained widespread adoption in the software development community.  
   
-<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/gitflowschema.png" alt="Schemagitflow" width="500"/>
+<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/schema%20command%20gitflow/gitflowschema.png" alt="Schemagitflow" width="500"/>
   
 ## How to iniate Git Flow  
   
@@ -15,7 +15,7 @@ git flow init
   
 The git flow init command is used to initialize a new Git repository with Git Flow, which defines a set of branching conventions designed to optimize collaboration, release management, and issue tracking in software development projects.
 
-<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/gitflowinit.png" alt="Schemagitflow" width="500"/>  
+<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/schema%20command%20gitflow/gitflowinit.png" alt="Schemagitflow" width="500"/>  
   
 ## Basic command  
   
@@ -26,7 +26,7 @@ git flow feature start (name)
 The git flow feature start command is used to create a new feature branch in a Git repository.  
 Features in Git Flow are used to develop new functionality or make significant changes to the codebase. Using feature branches helps keep the development work isolated from the main branches (develop and master), allowing teams to work on different features independently.  
    
-<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/gitflowfeaturestat.png" alt="Schemagitflow" width="500"/> 
+<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/schema%20command%20gitflow/gitflowfeaturestat.png" alt="Schemagitflow" width="500"/> 
   
 ---
   
@@ -36,7 +36,7 @@ git flow feature finish (name)
   
 The command git flow feature finish (name) attempts to finish a feature branch named (name) using the Git Flow workflow.  
    
-<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/gitflowfeatureFinish.png" alt="Schemagitflow" width="500"/> 
+<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/schema%20command%20gitflow/gitflowfeatureFinish.png" alt="Schemagitflow" width="500"/> 
   
 ---
   
@@ -46,7 +46,7 @@ git flow release start (1.0.0)
   
 When you run this command, Git Flow will create a new release branch based on the current state of the develop branch. You can then use this release branch to prepare for a new software release. Typically, you would use the release branch to fix any remaining bugs, update documentation, and perform other tasks necessary for the release. 
    
-<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/160f9641eaba9831fe08543b2fdbd33a399134be/image/GitFlowRealiseStart.png" alt="Schemagitflow" width="500"/> 
+<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/schema%20command%20gitflow/GitFlowRealiseStart.png" alt="Schemagitflow" width="500"/> 
   
 ---
   
@@ -115,7 +115,7 @@ alias gpot="git push origin --tags"
   
   You'll need to put them in the .zshrc or .bashrc file, like this.  
     
-<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/aliasgitflow.png" alt="Schemagitflow" width="500"/>  
+<img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/schema%20command%20gitflow/aliasgitflow.png" alt="Schemagitflow" width="500"/>  
   
 ## Create Workflow in Teams  
   
