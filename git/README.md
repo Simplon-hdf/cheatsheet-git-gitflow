@@ -124,5 +124,7 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 
 ### What are tags on git 
 
+- Git tags are fixed landmarks in code history, used to mark stable versions, important landmarks, and project-specific states. They allow you to reference and track software versions, which facilitates the management, navigation and consistent deployment of code.
+
 ## Cherrypicking
 
