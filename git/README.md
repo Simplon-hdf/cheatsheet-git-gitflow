@@ -10,6 +10,29 @@
 ## Configurations
 
 
+## Aliases
+
+### How to set up your aliases
+
+Aliases are basically shortcut for any command. You can set up whatever aliases you want by following those steps :
+
+1. go into your `.zshrc` using the command `code .zshrc`
+2. once inside your file, go all the way to the bottom and add `source ~/.aliases`
+3. create `.aliases.sh` into your `~/user directory`
+4. in your `.aliases.sh` create your aliases following this syntax :
+    - `alias [your alias]="[the command]"` for exemple `alias lz="lazygit"`
+
+If you installed `oh my zsh` you should already have a few aliases installed, just use `aliases` to see a list
+
+### A few useful aliases
+
+- `alias gs="git status"`
+- `alias gb="git branch -a"`
+- `alias gr="git remote -v"`
+- `alias lz="lazygit"`
+- `alias gffs="git flow feature start"`
+- `alias gfff="git flow feature finish"`
+
 ## Basic command
 
 
