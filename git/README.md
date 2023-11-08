@@ -4,6 +4,27 @@
 
 # Cheatsheet Git
 
+## Table of content
+- [Definitions](#definitions)
+- [Configurations](#configurations)
+- [Setting up remotes](#setting-up-remotes)
+    - [Why you need to use git remote command](#why-you-need-to-use-git-remote-command)
+    - [Working with Remote Repositories](#working-with-remote-repositories)
+    - [Branches and Remote Repositories](#branches-and-remote-repositories)
+    - [Cloning Remote Repositories](#cloning-remote-repositories)
+- [Sharing projects](#sharing-projects)
+    - [Why you need to use the command "git push"](#why-you-need-to-use-the-command-git-push)
+    - [Why you need to use the command "git pull"](#why-you-need-to-use-the-command-git-pull)
+- [Branch and Merge/Rebase](#branch-and-mergerebase)
+    - [Branch](#branch)
+    - [Merges and Rebase](#merges-and-rebase)
+- [Stash](#stash)
+- [Review changes](#review-changes)
+- [Tags](#tags)
+    - [What are tags on git](#what-are-tags-on-git)
+- [Cherrypicking](#cherrypicking)
+- [Commit Convention](#commit-convention)
+
 ## Definitions
 
 
