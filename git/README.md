@@ -163,8 +163,22 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 [More information](https://ndpsoftware.com/git-cheatsheet.html#loc=index;)
 ## Review changes
 
+## Logs 
+
+### Basic logs 
+
+| Command | Description |
+| ------- | ----------- |
+| `git log` | Logs in Current Branch|
+| `git log -n 5` | Logs last n number of commits |
+| `git log branch1..branch2` | Commits between branch1 and branch2 |
+| `git remote rename old_name new_name` | Commits in branch1 that are not in branch2 |
+| `git log branch1 ^branch2` | List Remote Repositories |
+
+
 
 ## Tags
+
 
 ### What are tags on git 
 
