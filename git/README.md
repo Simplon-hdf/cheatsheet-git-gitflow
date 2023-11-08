@@ -119,6 +119,7 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 [More information](https://ndpsoftware.com/git-cheatsheet.html#loc=index;)
 ## Review changes
 
+## Logs 
 
 ## Tags
 
