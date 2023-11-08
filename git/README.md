@@ -125,6 +125,19 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 
 ## Cherrypicking
 
+### What is cherry picking
+
+Cherry picking is the act of picking a commit from a branch and applying it to another. Cherry pick can be used in very specific situation such as :
+- big hotfixes
+- undoing changes and restoring lost commit
+- copying a specific piece of code that can be reused somewhere else
+
+| Command | Description |
+| ------- | ----------- |
+|`git cherry-pick commitSha`|Takes the commit and applies it to your current branch|*
+
+**The Sha is the commit id. He can be identified using the `git log` command*
+
 ## Commit Convention
 
 The conventional commit message format is a simple yet powerful convention that enforces consistency in commit messages, making them more informative and easier to understand for both humans and machines.
@@ -132,7 +145,7 @@ The conventional commit message format is a simple yet powerful convention that 
 <type>(<scope>): <message>
 ```
 
--  `<type>`: Describes the purpose of the commit (e.g., feat, fix, chore, docs, style, refactor, test, etc.).
+- `<type>`: Describes the purpose of the commit (e.g., feat, fix, chore, docs, style, refactor, test, etc.).
 - `<scope>` (optional): Specifies the part of the codebase that the commit affects.
 - `<message>`: A short, concise description of the changes.
 
@@ -146,3 +159,4 @@ More information :
 [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#summary)
 
 [Angular commit format](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format)
+
