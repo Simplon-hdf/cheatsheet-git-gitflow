@@ -1,7 +1,3 @@
-
-
-
-
 # Cheatsheet Git
 
 ## Table of content
@@ -26,13 +22,18 @@
 - [Commit Convention](#commit-convention)
 
 ## Definitions
+- Repository : a repository tracks and saves the history of all changes 
+- Fork : Cloning someone else's repository so that it is on your own github under your name
+- Remote : a remote is a repository that isn't local (usually on something like github or gitlab)
+- Origin : Your remote repository of a forked project
+- Upstream : The _original_ remote repository of a project you forked
 
+![Local/Origin/Upstream schema](https://devopscube.com/wp-content/uploads/2021/02/git-forked-upstream-min.png)
 
 ## Configurations
 
 
 ## Aliases
-
 ### How to set up your aliases
 
 Aliases are basically shortcut for any command. You can set up whatever aliases you want by following those steps :
