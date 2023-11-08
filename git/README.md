@@ -16,6 +16,42 @@
 
 ## Setting up remotes
 
+### Why you need to use git remote command
+
+- The git remote command is used to manage remote repositories associated with your local Git repository. It allows you to add, list, rename and delete remote repositories, as well as view information about these repositories. It is essential for establishing connections with other repositories, facilitating collaboration and code synchronization between your local repository and remote repositories.
+
+
+| Command | Description |
+| ------- | ----------- |
+| `git remote -v` | List Remote Repositories |
+| `git remote rename old_name new_name` | Rename a Remote Repository |
+| `git remote remove remote_name` | Remove a Remote Repository |
+
+### Working with Remote Repositories
+
+| Command | Description |
+| ------- | ----------- |
+| `git fetch remote_name` | Fetch Changes from a Remote Repository |
+| `git pull remote_name branch_name` | Pull Changes from a Remote Repository |
+| `git push remote_name branch_name` | Push Local Changes to a Remote Repository |
+
+### Branches and Remote Repositories
+
+| Command | Description |
+| ------- | ----------- |
+| `git checkout -b new_local_branch remote_name/remote_branch` | Create a New Local Branch Based on a Remote Branch: |
+| `git branch --set-upstream-to=remote_name/remote_branch local_branch` | Set Upstream Branch to Track a Remote Branch Locally |
+| `git push remote_name branch_name` | Push Local Changes to a Remote Repository |
+
+### Cloning Remote Repositories
+
+| Command | Description |
+| ------- | ----------- |
+| `git clone repository_url` | Clone a Remote Repository (Creates a Local Copy) |
+| `git clone repository_url local_directory_name` | Clone a Remote Repository into a Custom Local Directory |
+
+
+
 
 
 ## Sharing projects
