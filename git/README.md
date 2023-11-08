@@ -122,6 +122,7 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 
 ## Tags
 
+### What are tags on git 
 
 ## Cherrypicking
 
