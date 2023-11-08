@@ -35,6 +35,21 @@
 | `git pull remote_name branch_name` | Pull Changes from a Remote Repository |
 | `git push remote_name branch_name` | Push Local Changes to a Remote Repository |
 
+### Branches and Remote Repositories
+
+| Command | Description |
+| ------- | ----------- |
+| `git checkout -b new_local_branch remote_name/remote_branch` | Create a New Local Branch Based on a Remote Branch: |
+| `git branch --set-upstream-to=remote_name/remote_branch local_branch` | Set Upstream Branch to Track a Remote Branch Locally |
+| `git push remote_name branch_name` | Push Local Changes to a Remote Repository |
+
+### Cloning Remote Repositories
+
+| Command | Description |
+| ------- | ----------- |
+| `git clone repository_url` | Clone a Remote Repository (Creates a Local Copy) |
+| `git clone repository_url local_directory_name` | Clone a Remote Repository into a Custom Local Directory |
+
 
 
 
