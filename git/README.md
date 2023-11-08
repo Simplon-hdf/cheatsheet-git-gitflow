@@ -30,7 +30,6 @@
 
 ![Local/Origin/Upstream schema](https://devopscube.com/wp-content/uploads/2021/02/git-forked-upstream-min.png)
 
-## Configurations
 
 
 ## Aliases
@@ -55,12 +54,18 @@ If you installed `oh my zsh` you should already have a few aliases installed, ju
 - `alias gffs="git flow feature start"`
 - `alias gfff="git flow feature finish"`
 
-## Basic command
+## Staging and commiting
 
+| Command | Description |
+| ------- | ----------- |
+| `git status` | Check status |
+| `git add [file-name.txt]` | Add a file to the staging area |
+| `git add -A` | Add all new and changed files to the staging area |
+| `git commit -m "[commit message]"` | Commit changes |
+| `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
 
 ## Setting up remotes
-
 ### Why you need to use git remote command
 
 - The git remote command is used to manage remote repositories associated with your local Git repository. It allows you to add, list, rename and delete remote repositories, as well as view information about these repositories. It is essential for establishing connections with other repositories, facilitating collaboration and code synchronization between your local repository and remote repositories.
