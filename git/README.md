@@ -43,7 +43,7 @@
 | `git branch --set-upstream-to=remote_name/remote_branch local_branch` | Set Upstream Branch to Track a Remote Branch Locally |
 | `git push remote_name branch_name` | Push Local Changes to a Remote Repository |
 
-### Cloning Remote Repositoriess
+### Cloning Remote Repositories
 
 | Command | Description |
 | ------- | ----------- |
