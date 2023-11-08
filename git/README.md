@@ -125,3 +125,15 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 
 ## Cherrypicking
 
+### What is cherry picking
+
+Cherry picking is the act of picking a commit from a branch and applying it to another. Cherry pick can be used in very specific situation such as :
+- big hotfixes
+- undoing changes and restoring lost commit
+- copying a specific piece of code that can be reused somewhere else
+
+| Command | Description |
+| ------- | ----------- |
+|`git cherry-pick commitSha`|Takes the commit and applies it to your current branch|*
+
+**The Sha is the commit id. He can be identified using the `git log` command*
