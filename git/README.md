@@ -125,3 +125,24 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 
 ## Cherrypicking
 
+## Commit Convention
+
+The conventional commit message format is a simple yet powerful convention that enforces consistency in commit messages, making them more informative and easier to understand for both humans and machines.
+```
+<type>(<scope>): <message>
+```
+
+-  `<type>`: Describes the purpose of the commit (e.g., feat, fix, chore, docs, style, refactor, test, etc.).
+- `<scope>` (optional): Specifies the part of the codebase that the commit affects.
+- `<message>`: A short, concise description of the changes.
+
+for example :
+```
+feat(user-auth): add password reset functionality
+```
+
+More information :
+
+[conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#summary)
+
+[Angular commit format](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format)
