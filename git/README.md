@@ -16,6 +16,8 @@
 
 ## Setting up remotes
 
+### Why you need to use git remote command
+
 
 
 ## Sharing projects
