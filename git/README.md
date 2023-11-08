@@ -27,7 +27,13 @@
 | `git remote rename old_name new_name` | Rename a Remote Repository |
 | `git remote remove remote_name` | Remove a Remote Repository |
 
+### Working with Remote Repositories
 
+| Command | Description |
+| ------- | ----------- |
+| `git fetch remote_name` | Fetch Changes from a Remote Repository |
+| `git pull remote_name branch_name` | Pull Changes from a Remote Repository |
+| `git push remote_name branch_name` | Push Local Changes to a Remote Repository |
 
 
 
