@@ -250,18 +250,17 @@ for example :
 feat(user-auth): add password reset functionality
 ```
   
-| Type          | Description                                                 |
-|---------------|-------------------------------------------------------------|
-| **feat**      | Ajout d'une nouvelle fonctionnalité (feature)               |
-| **fix**       | Correction d'un bug                                        |
-| **docs**      | Modification de la documentation                            |
-| **style**     | Modification du style du code (sans impact sur la logique) |
-| **refactor**  | Refactoring du code (modification qui n'ajoute pas de fonctionnalités ni de bugs) |
-| **perf**      | Amélioration des performances                                |
-| **test**      | Ajout ou modification de tests                               |
-| **chore**     | Tâches de maintenance diverses pour le projet                |
-
-
+| Type          | Description                                              |
+|---------------|----------------------------------------------------------|
+| **feat**      | Introducing a new feature (feature)                      |
+| **fix**       | Fixing a bug                                             |
+| **docs**      | Documentation changes                                    |
+| **style**     | Code style changes (non-breaking space)                   |
+| **refactor**  | Code refactoring (modification that doesn't add features or fix bugs) |
+| **perf**      | Performance improvements                                 |
+| **test**      | Adding or modifying tests                                |
+| **chore**     | Maintenance tasks, minor changes not affecting logic     |
+  
 More information :
 
 [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#summary)
