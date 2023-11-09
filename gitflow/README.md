@@ -7,7 +7,7 @@ Git Flow is a branching strategy designed to streamline the development workflow
   
 <img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/schema%20command%20gitflow/gitflowschema.png" alt="Schemagitflow" width="500"/>
   
-## How to iniate Git Flow  
+## How to initiate Git Flow  
   
 ```
 git flow init
