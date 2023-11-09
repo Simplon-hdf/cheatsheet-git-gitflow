@@ -249,7 +249,18 @@ for example :
 ```
 feat(user-auth): add password reset functionality
 ```
-
+  
+| Type          | Description                                              |
+|---------------|----------------------------------------------------------|
+| **feat**      | Introducing a new feature (feature)                      |
+| **fix**       | Fixing a bug                                             |
+| **docs**      | Documentation changes                                    |
+| **style**     | Code style changes (non-breaking space)                   |
+| **refactor**  | Code refactoring (modification that doesn't add features or fix bugs) |
+| **perf**      | Performance improvements                                 |
+| **test**      | Adding or modifying tests                                |
+| **chore**     | Maintenance tasks, minor changes not affecting logic     |
+  
 More information :
 
 [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#summary)
