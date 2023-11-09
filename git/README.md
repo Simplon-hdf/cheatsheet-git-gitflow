@@ -249,6 +249,18 @@ for example :
 ```
 feat(user-auth): add password reset functionality
 ```
+  
+| Type          | Description                                                 |
+|---------------|-------------------------------------------------------------|
+| **feat**      | Ajout d'une nouvelle fonctionnalité (feature)               |
+| **fix**       | Correction d'un bug                                        |
+| **docs**      | Modification de la documentation                            |
+| **style**     | Modification du style du code (sans impact sur la logique) |
+| **refactor**  | Refactoring du code (modification qui n'ajoute pas de fonctionnalités ni de bugs) |
+| **perf**      | Amélioration des performances                                |
+| **test**      | Ajout ou modification de tests                               |
+| **chore**     | Tâches de maintenance diverses pour le projet                |
+
 
 More information :
 
