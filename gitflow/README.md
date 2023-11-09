@@ -119,11 +119,11 @@ alias gpot="git push origin --tags"
   
 ## Create Workflow in Teams  
   
-You need to fork the upstream to you're origin repo.  
+First, we need to fork the upstream repository into our own origin
   
 <img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/Workflow%20team/Fork.png" alt="Schemagitflow" width="500"/>  
   
-In the terminal we need to clone with this command.  
+In the terminal, we will clone using this command. 
    
 ```
 git clone (SSH in origin)
@@ -131,7 +131,7 @@ git clone (SSH in origin)
 
 <img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/Workflow%20team/clone.png" alt="Schemagitflow" width="500"/>  
   
-and we need to init git flow.
+And now we can initialize Git Flow.
 
 ```
 git flow init
@@ -139,7 +139,7 @@ git flow init
   
 <img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/Workflow%20team/GitFlowInit2.png" alt="Schemagitflow" width="500"/>  
   
-for Fetch and Merge, we need to set the remote.  
+In order to fetch and merge to update our origin and local repositories, we need to set up the remote.  
   
 ```
 git remote add upstream (ssh/https upstream)  
@@ -157,19 +157,19 @@ git push --set-upstream origin develop
   
 <img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/Workflow%20team/BrancheDevUpstream.png" alt="Schemagitflow" width="500"/>  
   
-after working in a feature and push in the origin, you need to make a pull request.
+We should never work directly on the main branch; we will create the develop branch in both the origin and upstream repositories.
   
 <img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/Workflow%20team/Pullrequest.png" alt="Schemagitflow" width="500"/>  
   
-we need to verify the typo and description commit before merge.  
+After checking the naming convention, make changes to the code before validating the merge.
   
 <img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/Workflow%20team/GoodCommit.png" alt="Schemagitflow" width="500"/>  
   
-and if all is good, merge in the upstream.  
+If everything is okay, we can now merge the pull request.
   
 <img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/Workflow%20team/Merge.png" alt="Schemagitflow" width="500"/>  
   
-now every one cane get the new file with fetch and merge, we have add in the upstream branch develop.  
+Now, in the Upstream repository, the develop branch is up-to-date with your own develop branch. For other colleagues, they can fetch and merge to update their own origin and local repositories.
   
 <img src="https://raw.githubusercontent.com/Simplon-hdf/cheatsheet-git-gitflow/develop/image/Workflow%20team/uptodate.png" alt="Schemagitflow" width="500"/>  
   
