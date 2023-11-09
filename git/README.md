@@ -2,7 +2,10 @@
 
 ## Table of content
 - [Definitions](#definitions)
-- [Configurations](#configurations)
+- [Aliases](#aliases)
+    - [How to set up your aliases](#how-to-set-up-your-aliases)
+    - [A few useful aliases](#a-few-useful-aliases)
+- [Staging and comiting](#staging-and-commiting)
 - [Setting up remotes](#setting-up-remotes)
     - [Why you need to use git remote command](#why-you-need-to-use-git-remote-command)
     - [Working with Remote Repositories](#working-with-remote-repositories)
@@ -15,11 +18,13 @@
     - [Branch](#branch)
     - [Merges and Rebase](#merges-and-rebase)
 - [Stash](#stash)
-- [Review changes](#review-changes)
+- [Logs](#logs)
 - [Tags](#tags)
-    - [What are tags on git](#what-are-tags-on-git)
 - [Cherrypicking](#cherrypicking)
 - [Commit Convention](#commit-convention)
+
+
+
 
 ## Definitions
 - Repository : a repository tracks and saves the history of all changes 
@@ -30,7 +35,7 @@
 
 ![Local/Origin/Upstream schema](https://devopscube.com/wp-content/uploads/2021/02/git-forked-upstream-min.png)
 
-## Configurations
+
 
 
 ## Aliases
@@ -55,22 +60,33 @@ If you installed `oh my zsh` you should already have a few aliases installed, ju
 - `alias gffs="git flow feature start"`
 - `alias gfff="git flow feature finish"`
 
-## Basic command
+
+
+
+## Staging and commiting
+
+| Command | Description |
+| ------- | ----------- |
+| `git status` | Check status |
+| `git add [file-name.txt]` | Add a file to the staging area |
+| `git add -A` | Add all new and changed files to the staging area |
+| `git commit -m "[commit message]"` | Commit changes |
+| `git rm -r [file-name.txt]` | Remove a file (or folder) |
+
 
 
 
 ## Setting up remotes
-
 ### Why you need to use git remote command
 
 - The git remote command is used to manage remote repositories associated with your local Git repository. It allows you to add, list, rename and delete remote repositories, as well as view information about these repositories. It is essential for establishing connections with other repositories, facilitating collaboration and code synchronization between your local repository and remote repositories.
-
 
 | Command | Description |
 | ------- | ----------- |
 | `git remote -v` | List Remote Repositories |
 | `git remote rename old_name new_name` | Rename a Remote Repository |
 | `git remote remove remote_name` | Remove a Remote Repository |
+
 
 ### Working with Remote Repositories
 
@@ -80,6 +96,8 @@ If you installed `oh my zsh` you should already have a few aliases installed, ju
 | `git pull remote_name branch_name` | Pull Changes from a Remote Repository |
 | `git push remote_name branch_name` | Push Local Changes to a Remote Repository |
 
+
+
 ### Branches and Remote Repositories
 
 | Command | Description |
@@ -87,6 +105,8 @@ If you installed `oh my zsh` you should already have a few aliases installed, ju
 | `git checkout -b new_local_branch remote_name/remote_branch` | Create a New Local Branch Based on a Remote Branch: |
 | `git branch --set-upstream-to=remote_name/remote_branch local_branch` | Set Upstream Branch to Track a Remote Branch Locally |
 | `git push remote_name branch_name` | Push Local Changes to a Remote Repository |
+
+
 
 ### Cloning Remote Repositories
 
@@ -100,10 +120,11 @@ If you installed `oh my zsh` you should already have a few aliases installed, ju
 
 
 ## Sharing projects
-### In this paragraph we wil see orders that will be used to share and post your project 
+In this paragraph we wil see orders that will be used to share and post your project 
 
 ### Why you need to use the command "git push"
- -The "git push" command is used to send your local changes to a remote repository (such as a Git repository hosted on a server) to share with other collaborators. This updates the remote repository with your latest changes, so others can see and retrieve them. In summary, "git push" pushes your local changes to a remote location so that they are accessible to others
+The "git push" command is used to send your local changes to a remote repository (such as a Git repository hosted on a server) to share with other collaborators. This updates the remote repository with your latest changes, so others can see and retrieve them. In summary, "git push" pushes your local changes to a remote location so that they are accessible to others
+
 | Command | Description |
 | ------- | ----------- |
 | `git push origin [branch name]` | Push a branch to your remote repository |
@@ -115,6 +136,7 @@ If you installed `oh my zsh` you should already have a few aliases installed, ju
 ### Why you need to use the command "git pull"
 
 The "git pull" command retrieves changes from a remote repository (such as a Git repository hosted on a server) and merges them with your local copy of the code. In summary, "git pull" updates your local copy with the latest changes to the remote repository.
+
 | Command | Description |
 | ------- | ----------- |
 | `git pull` | Update local repository to the newest commit 
@@ -162,12 +184,11 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 | `git stash clear`| Remove all the stashed states. Note that those states will then be subject to pruning, and may be impossible to recover.|
 
 [More information](https://ndpsoftware.com/git-cheatsheet.html#loc=index;)
-## Review changes
+
+
+
 
 ## Logs 
-
-### Basic logs 
-
 | Command | Description |
 | ------- | ----------- |
 | `git log` | Logs in Current Branch|
@@ -178,10 +199,8 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 
 
 
+
 ## Tags
-
-
-### What are tags on git 
 
 - Git tags are fixed landmarks in code history, used to mark stable versions, important landmarks, and project-specific states. They allow you to reference and track software versions, which facilitates the management, navigation and consistent deployment of code.
 
@@ -198,9 +217,8 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 
 
 
-## Cherrypicking
 
-### What is cherry picking
+## Cherrypicking
 
 Cherry picking is the act of picking a commit from a branch and applying it to another. Cherry pick can be used in very specific situation such as :
 - big hotfixes
@@ -212,6 +230,9 @@ Cherry picking is the act of picking a commit from a branch and applying it to a
 |`git cherry-pick commitSha`|Takes the commit and applies it to your current branch|*
 
 **The Sha is the commit id. He can be identified using the `git log` command*
+
+
+
 
 ## Commit Convention
 
