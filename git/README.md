@@ -71,7 +71,7 @@ If you installed `oh my zsh` you should already have a few aliases installed, ju
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
-| `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git rm -r [file name]` | Remove a file (or folder) |
 
 
 
@@ -84,27 +84,18 @@ If you installed `oh my zsh` you should already have a few aliases installed, ju
 | Command | Description |
 | ------- | ----------- |
 | `git remote -v` | List Remote Repositories |
-| `git remote rename old_name new_name` | Rename a Remote Repository |
-| `git remote remove remote_name` | Remove a Remote Repository |
+| `git remote rename [old name] [new name]` | Rename a Remote Repository |
+| `git remote remove [remote name]` | Remove a Remote Repository |
 
 
 ### Working with Remote Repositories
 
 | Command | Description |
 | ------- | ----------- |
-| `git fetch remote_name` | Fetch Changes from a Remote Repository |
-| `git pull remote_name branch_name` | Pull Changes from a Remote Repository |
-| `git push remote_name branch_name` | Push Local Changes to a Remote Repository |
+| `git fetch [remote name]` | Fetch Changes from a Remote Repository |
+| `git pull [remote name] [branch name]` | Pull Changes from a Remote Repository |
+| `git push [remote name] [branch name]` | Push Local Changes to a Remote Repository |
 
-
-
-### Branches and Remote Repositories
-
-| Command | Description |
-| ------- | ----------- |
-| `git checkout -b new_local_branch remote_name/remote_branch` | Create a New Local Branch Based on a Remote Branch: |
-| `git branch --set-upstream-to=remote_name/remote_branch local_branch` | Set Upstream Branch to Track a Remote Branch Locally |
-| `git push remote_name branch_name` | Push Local Changes to a Remote Repository |
 
 
 
@@ -112,8 +103,8 @@ If you installed `oh my zsh` you should already have a few aliases installed, ju
 
 | Command | Description |
 | ------- | ----------- |
-| `git clone repository_url` | Clone a Remote Repository (Creates a Local Copy) |
-| `git clone repository_url local_directory_name` | Clone a Remote Repository into a Custom Local Directory |
+| `git clone [repository url]` | Clone a Remote Repository (Creates a Local Copy) |
+| `git clone [repository url] [local directory name]` | Clone a Remote Repository into a Custom Local Directory |
 
 
 
@@ -141,8 +132,8 @@ The "git pull" command retrieves changes from a remote repository (such as a Git
 | ------- | ----------- |
 | `git pull` | Update local repository to the newest commit 
 | `git pull origin [branch name]` | Pull changes from remote repository 
-| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` |Add a remote repository |
-| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+| `git remote add origin [repository ssh address]` |Add a remote repository |
+| `git remote set-url origin [repository ssh address]` | Set a repository's origin branch to SSH |
 
 
 ## Branch and Merge/Rebase
@@ -194,7 +185,7 @@ The *stash* is a place where you can temporarily shelves (or stashes) changes yo
 | `git log` | Logs in Current Branch|
 | `git log -n 5` | Logs last n number of commits |
 | `git log branch1..branch2` | Commits between branch1 and branch2 |
-| `git remote rename old_name new_name` | Commits in branch1 that are not in branch2 |
+| `git remote rename [old name] [new name]` | Commits in branch1 that are not in branch2 |
 | `git log branch1 ^branch2` | List Remote Repositories |
 
 
